@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAF5FE;
+        }
+        .form-container {
+            width: 420px;
+            height: max-content;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .form-container img {
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .form-container h2 {
+            text-align: center;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container label {
+            margin-bottom: 5px;
+        }
+        .form-container input, .form-container select {
+
+            margin-bottom: 15px;
+            margin-left: 8px;
+            margin-right: 8px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #222020;
+        }
+        .form-container button {
+            padding: 10px;
+            background-color: #0176D3;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            height: 50px;
+        }
+        /* .form-container button:hover {
+            background-color: #0056b3;
+        } */
+        #para{
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        #hum {
+            text-align: left;
+            
+        }
+        #jum{
+            text-align: right;
+        }
+        #down{
+            background-color: white;
+            padding: 10px;
+            font-size: 13px;
+        }
+        #down img {
+            float: right;
+            width: 140px;
+            margin-bottom: 0px;
+        }
+        footer{
+            background-color: #032E61;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+        }
+        footer a {
+            color: #ffffff;
+            margin: 0 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <img src="logo.svg" alt="logo", width="60px" height="60px" >
+        <p><h2>Where are you located?</h2></p>
+        <strong>We want to make sure you see the account terms for your area.</strong>
+        <p id="para">  Complete the form to start your free trial. Our team <br>will be in touch to help you make the most of your trial.</p>
+        <form action="">
+            <label for="first-name" style="font-size: 12px">Company</label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
+            
+            <label for="last-name" style="font-size: 12px; margin: left 4px; ;">Company Size</label>
+            <select type="text" class="option" name="option" placeholder="Last Name" required>
+                <option value="Company Size" disabled>Company Size</option>
+                <option value="1-10">1-20 employees</option>
+                <option value="11-50">21-200 employees</option>
+                <option value="51-200">201-10000 employees</option>
+                <option value="201-500">10000+ employees</option>
+                
+            </select><br>
+            
+            <label for="Job" style="font-size: 12px;">Country/Region</label>
+            <select type="text" class="option" name="Job" placeholder="Job title" required>
+                <option value="Country/Region" disabled>Country/Region</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="ghana">Ghana</option>
+                <option value="kenya">Kenya</option>
+                <option value="south_africa">South Africa</option>
+                <option value="egypt">Egypt</option>
+                <option value="canada">Canada</option>
+                <option value="japan">Japan</option>
+                <option value="brazil">Brazil</option>
+                <option value="germany">Germany</option>
+                <option value="australia">Australia</option>
+            </select><br>
+            
+            <button type="submit">Next</button>
+            <p id="hum" style="color: #aaa;"><a href="form.html">back</a></p>
+            <p id="jum" style="color: #aaa;"> 2 of 3</p>
+        </form>
+    </div>
+        <section id="down">
+            <img src="/seal_PSV_en_m.svg" alt="nett" style="float: right; width:115px; margin-bottom:0px;" >
+            <p id="bad"><b>Starting at $25/month.*</b> Salesforce may establish general practices and limits concerning use of the Salesforce <br> service, 
+            including, without limitation the maximum number of combined Leads and Contacts, 
+            which<br> is limited to 2,000 leads and/or contacts and 10 emails per day for the Salesforce Starter Trial Edition.<br>
+            </p><p>*USD/user/month (billed monthly or annually).</p>
+        </section>
+        <footer>
+            <select name="worldwide" id="worldwide" placeholder="Worldwide">
+                <option value="worldwide">Worldwide</option>
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+            </select>
+            <a href="">Legal</a>
+            <a href="">Terms of Service</a>
+            <a href="">Privacy Information</a>
+            <a href="">Responsible Disclosure</a>
+            <a href="">Trust</a>
+            <a href="">Contact</a>
+            <a href="">Cookies Preference</a>
+            <a href="">Your Privacy Choices</a>
+            <p>
+                © Copyright 2025 Salesforce, Inc. <a href="">All rights reserved.</a> Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States
+            </p>
+        </footer>
+
+    
+</body>
+</html>

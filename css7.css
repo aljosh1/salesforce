@@ -1,0 +1,14 @@
+.conic-bg{
+    width: 500px;
+    height: 500px;
+    background:conic-gradient(from 0deg, red 90deg,  black 90deg, 180deg, green 180deg, green 270deg, grey 270deg, grey 360deg);
+    border-radius: 20px;
+    justify-self: center ;
+}
+.rep-conic-bg{
+    width: 500px;
+    height: 500px;
+    background: repeating-conic-gradient(red 10%, green 20%, yellow 10%);
+    border-radius: 250px;
+    justify-self: center ;
+}

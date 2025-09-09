@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../siwesreal/fontawesome-free-7.0.0-desktop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "salesforce"
+	}
+}

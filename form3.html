@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce.com</title>
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAF5FE;
+        }
+        .form-container {
+            width: 500px;
+            height: max-content; ;
+            margin-left: 35%;
+            margin-right: 30%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 100px;
+        }
+        
+        .form-container img {
+            display: block;
+            margin-left:35%;
+            margin-right: 35%;
+            width: 80px;
+            height: 60px;
+
+        }
+        .form-container h2 {
+            text-align: center;
+            color: #032E61;
+            font-size: 24px;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 0%;
+            
+        }
+        .form-container label {
+            margin-bottom: 5px;
+        }
+        .form-container input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #222020;
+            gap: 40px;
+            width: 80%;
+            margin: 10px 20px;
+            
+        }
+        #first_name{
+            margin: 50px;
+            width: 100px;
+        }
+        .form-container button {
+            padding: 10px;
+            background-color: #0176D3;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            height: 50px;
+        }
+        /* .form-container button:hover {
+            background-color: #0056b3;
+        } */
+        #para{
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        #hum {
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            
+        }
+        #jum{
+            text-align: right;
+        }
+        #down{
+            background-color: white;
+            padding: 10px;
+            font-size: 13px;
+            margin-top: 100px;
+        }
+        #down img {
+            float: right;
+            width: 140px;
+            margin-bottom: 0px;
+        }
+        footer{
+            background-color: #032E61;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+        }
+        footer a {
+            color: #ffffff;
+            margin: 0 10px;
+        }
+        #frontier{
+            justify-content: center;
+            padding: 1px;
+            line-height: 10px;
+        }
+        #just{
+            padding: 0%;
+        }
+        #your{
+            font-size: 13px;
+            margin-left: 20px;
+            margin-top: 1px ;
+        }
+        #agree{
+            margin-left: 30%;
+        }
+        #agree2{
+            margin-right: 70%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div id="frontier">
+            <img src="logo.svg" alt="logo", width="60px" height="60px" >
+        <p id="just" ><h2>Just one more thing</h2>  
+            <br> <span style="margin-left: 90px; font-size: 16px;">The final step before we spin up your trial.</span>
+        </p>
+        </div>
+        
+            <form action="">
+            <label for="first-name" style="font-size: 13px; margin-top: 20px; margin-left: 20px;">Phone</label>
+            <input type="text" id="first-name" name="Phone Number" placeholder="Phone Number" required><br>
+            <input type="text" id="first-name" name="Email" placeholder="Email" required><br>
+            <figcaption style="font-size: 13px; margin-left: 20px;">Your free trial may be provisioned on or migrated to Hyperforce, Salesforce's public cloud infrastructure.</figcaption>
+             <div style="display: flex; align-items: center; margin-bottom: 8px;">
+  <input type="checkbox" id="agree1" name="agree" value="agree" required>
+  <label for="agree1" style="margin-left: 6px;">
+    I agree to the <a href="">Main Services Agreement.</a>
+  </label>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <input type="checkbox" id="agree2" name="agree2" value="agree2" required>
+  <label for="agree2" style="font-size: 13px; margin-left: 6px;">
+    Yes, I would like to receive marketing communications regarding Salesforce products, services, and events. I can unsubscribe at any time.
+  </label>
+</div>
+
+<p id="hum">We value your privacy. To learn more, visit our <a href="">Privacy Statement</a></p>
+
+            <button type="submit">Start For Free</button>
+            <p></p>
+            
+            <p id="jum" style="color: #aaa;"> 3 of 3</p>
+        </form>
+    </div>
+        <section id="down">
+            <img src="/seal_PSV_en_m.svg" alt="nett" style="float: right; width:115px; margin-bottom:0px;" >
+            <p id="bad"><b>Starting at $25/month.*</b> Salesforce may establish general practices and limits concerning use of the Salesforce <br> service, 
+            including, without limitation the maximum number of combined Leads and Contacts, 
+            which<br> is limited to 2,000 leads and/or contacts and 10 emails per day for the Salesforce Starter Trial Edition.<br>
+            </p><p>*USD/user/month (billed monthly or annually).</p>
+        </section>
+        <footer>
+            <select name="worldwide" id="worldwide" placeholder="Worldwide">
+                <option value="worldwide">Worldwide</option>
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+            </select>
+            <a href="">Legal</a>
+            <a href="">Terms of Service</a>
+            <a href="">Privacy Information</a>
+            <a href="">Responsible Disclosure</a>
+            <a href="">Trust</a>
+            <a href="">Contact</a>
+            <a href="">Cookies Preference</a>
+            <a href="">Your Privacy Choices</a>
+            <p>
+                © Copyright 2025 Salesforce, Inc. <a href="">All rights reserved.</a> Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States
+            </p>
+        </footer>
+
+    
+</body>
+</html>
