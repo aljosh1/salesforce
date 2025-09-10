@@ -827,6 +827,9 @@ nav a{
 .top-voices{
     margin-top: 50px;
 }
+.voiceBtn{
+    background:white; position: absolute; margin-left: 45%; margin-top: 0%;  justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
+}
 .top-voices h2{
     width: 50%;
     text-align: center;
@@ -848,6 +851,9 @@ nav a{
     padding: 10px;
     height: auto;
     
+}
+.grapbtn{
+    background:white; position: absolute; margin-left: 45%; margin-top: 5%;  justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
 }
 .main-container2P{
     font-size: 19px;
@@ -1107,13 +1113,14 @@ footer a {
         display:flex;
         width: 90%;
     }
+
     .vid_one{
         /* margin-top: 200px; */
         /* margin-left:-157%; */
 
-        width:94%;
+        width:125%;
         height:200px;
-        margin-top: 30%;
+        margin-top: 0%;
         border-top-left-radius: 20px; 
         border-top-right-radius: 20px;
 
@@ -1121,9 +1128,9 @@ footer a {
     .iframe-section{
     /* width: 600px; */
     /* padding: 20px; */
-    position:static;
-    margin-top: 175%;
-    margin-left: 10%;
+    /* position:static; */
+    margin-top: 500px;
+    margin-left: 5%;
     
     
 }
@@ -1131,14 +1138,14 @@ footer a {
         margin-left:-150%;
         z-index: -1;
         /* width:1200px; */
-        height:600px;
+        height:auto;
         rotate: 270deg;
         position: absolute;
     }
-
+/*  
     .button{
-        margin-bottom: 100px;
-    }
+        /* margin-bottom: 100px; */
+    /* }  */
     #Try-for-free2{
         /* width: 40px; */
         /* padding: 12px;  */
@@ -1251,7 +1258,7 @@ footer a {
         justify-items: center;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 100%;
+        /* margin-top: 100%; */
     }   
      /* .container3Senior .container3:nth-child(13), .container3Senior .container3:nth-child(14), #container3Senior .container3:nth-child(7), #container3Senior .container3:nth-child(8){
         margin-left: 10px;
@@ -1271,14 +1278,17 @@ footer a {
     height: 100px;
     
 }
+    .grapbtn{
+    background:white; position: relative; margin-left: 25%; margin-top: 40px; justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
+}
 
 .main-section2{
     width: fit-content;
     height: 200px;
 }
     .main-container2Vid{
-     border: none; border-radius: 20px; width:300px; height: 160px; margin-top:100%; border-top-left-radius: 12px;
-            border-top-right-radius: 12px;  border-radius: 12px;
+     border: none; border-radius: 20px; width:370px; height: 200px; margin-top:160px; border-top-left-radius: 12px;
+            border-top-right-radius: 12px;  border-radius: 12px; position: relative;
 } 
 .main-container2P{
     font-size: 14px;
@@ -1297,7 +1307,7 @@ footer a {
     margin-top: 0%;
 }
 .main-container2Img{
-    margin-top: 640px; width: 100%;
+    margin-top: 500px; width: 100%;
 }
 .easySeniorSection{
     margin-top: 10px; margin-left: 50px; margin-right: 50px; margin-bottom: 10px;
@@ -1334,8 +1344,8 @@ footer a {
 .step4Head{
         
     justify-content: center;
-    font-size: 29px;
-    margin-left: -60px;
+    font-size: 24px;
+    margin-left: -50px;
     margin-right: 20px;
     font-weight: bold;
     color: #032D60;
@@ -1383,7 +1393,7 @@ footer a {
 }
 .seeHow-cap{
     display: block;
-    margin: 40px;
+    margin: 60px;
 }
 .takeWord h2{
     width: 90%;
@@ -1413,10 +1423,9 @@ footer a {
 }
 .lookHow-cap{
     margin-top: 9rem;
+    margin: 90px;
     display: block;
     gap: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
     justify-content: center;
 }
 .lookHow {
@@ -1431,22 +1440,22 @@ footer a {
     margin-left: 0px;
     width: 100%;
 }
-
+.voiceBtn{
+    background:white; position: absolute; margin-left: 25%; margin-top: 0%;  justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
+}
 
 
 }
 
+
+
+
 /* Extra small (phones) */
-@media (max-width<470px) {
+/* @media (min-width: 381px) and (max-width: 575.98px) {
+.menu{
+        display: block;
+        margin-left: -32px;
     
- }
-
-
-
-/* Extra small (phones) */
-@media (min-width: 381px) and (max-width: 575.98px) {
-    .menu{
-        margin-left: 20px;
     }
     .navFirst{
         display: none;
@@ -1476,31 +1485,35 @@ footer a {
         flex-direction: row;
         flex-wrap: wrap;
     } */
-    .try-for-free{
-        margin-left:200px;
+    /* .try-for-free{
+        margin-left:170px;
     }
+    
     nav{
         position:fixed;
+        
         top: 1px;
         height: 50px;
         overflow-y: hidden;
         z-index: 80;
-    
+        width: 9rem;
+        
     }
     .nav-container{
         height: 0.4cm;
     }
     .try-for-free{
         position:fixed;
-        width: 200px;
-        height: 25px;
+        width: 80px;
+        height: 55px;
     }
     .try-for-free a{
-        font-size: 16px;
+        font-size: 12px;
 
     }
     .navSecond{
-        margin-left: 4%;
+        margin-left:-10px;
+        gap: 0px;
     }
     #smallNav{
         padding: 5px;
@@ -1529,175 +1542,10 @@ footer a {
     }
     .button{
         display: block;
-        justify-items: center;
-        /* background-image: url(iframbackground.webp); */
-    }
-    .main-container{
-        background-image: url(php-marquee-hp-agentforce-sm-bg.jpg.webp);
-        background-repeat: no-repeat;
-        background-position: center -10%;
-        display: block;
-        padding: 10px;
-        height: 2300px;
-        margin-left: -20px;
-    }
-    .image_under_video1{
-        display: none;
-    }
-
-    .main-container p{
-        flex-wrap: wrap;
-        display:flex;
-        
-    }
-    .vid_one{
-        /* margin-top: 200px; */
-        /* margin-left:-157%; */
-
-        width:100%;
-        height:270px;
-        margin-top: 60%;
-        border-top-left-radius: 50px; 
-        border-top-right-radius: 20px;
-        
-    }
-    .iframe-section{
-    /* width: 600px; */
-    /* padding: 20px; */
-    position:static;
-    margin-top: 100%;
-    margin-left: 7%;
+        justify-items: center; */
+        /* background-image: url(iframbackground.webp); 
     
-    
-}
-    .image_under_video1{
-        margin-top: 20%;
-        margin-left:-150%;
-        z-index: -1;
-        /* width:1200px; */
-        height:600px;
-        rotate: 270deg;
-        position: absolute;
-    }
-
-
-    #Try-for-free2{
-        /* width: 40px; */
-        /* padding: 12px;  */
-        border-radius: 5px;
-        width: 65%;
-        height: 50px;
-        padding: 10px;
-        font-weight: bold;
-        /* margin-top: 40px; */
-        z-index: 2;
-        justify-items: center;
-    }
-    .Try-for-free3{
-        background:white; 
-        width: 65%;
-        height: 50px;
-        border: 3px solid #0176D3 ;
-        margin-left: 9rem;
-    }
-    .container1{
-        margin-top: -250%;
-    }
-    .step1Head{
-        width: 80%;
-        margin-left:  50px;
-        margin-right: 50px;
-        font-size: 42px;
-        /* margin-top: -50%; */
-        justify-items: center;        
-    }
-    .step1para{
-        line-height: 25px;
-        width: 90%;
-        margin-left:  20px;
-        margin-right: 20px;
-    }
-    .step1but{
-    display: block;
-    margin-left: 35%;
-    justify-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    }
-    .try-try2{
-    background:white;
-    margin-top: 32px;
-    margin-right: 20px;
-    margin-left: 20px;
-    justify-content: center; 
-    border-radius: 3px;
-    font-size: 18px;
-    border:  2px solid #0176D3; 
-    width: 90%; height: 50px;
-    }
-    .try-try1{
-    border-color: #0176D3;
-    justify-items: center; 
-    border-radius: 5px; 
-    margin-right: 20px;
-    margin-left: 20px;
-    justify-items: center;
-    width: 90%; 
-    height: 50px;
-    }
-    .container2{
-    display: block;
-    
-    line-height: 29px;
-    margin-left: 40%S;   
-    }
-    .vid_two{
-        display: none;
-    }
-    .container2{
-    display: block;
-    column-gap:0px;
-    line-height: 29px;
-    margin-left: 10px;   
-}
-.container2-section{
-    float: none;
-     margin-left: 15px;
-     margin-top: 4px; height: 250px; width: 100%;
-}
-#container2-btn{
-    border-color: #0176D3; background: #0176D3; border-radius: 5px; 
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 90%; height: 50px; margin-top: 0px;
-}
-.displayB .displayA{
-    display: block;
-
-}
-.displayB:hover .displayA{
-    display: block;
-    color: red;
-    background: purple;
-}
-
-
-/* GRID SECTION */
-    .container3Senior,
-    #container3Senior{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        margin-top: 100%;
-    }   
-     /* .container3Senior .container3:nth-child(13), .container3Senior .container3:nth-child(14), #container3Senior .container3:nth-child(7), #container3Senior .container3:nth-child(8){
-        margin-left: 10px;
-    } */
-    .container3{
-        padding: 10px;
-    }
- }
+  }  */
 
 /* Small (large phones) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
