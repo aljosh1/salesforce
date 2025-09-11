@@ -1065,7 +1065,7 @@ footer a {
     }
     .try-for-free{
         position:fixed;
-        width: 80px;
+        width: 70px;
         
         
     }
@@ -1078,7 +1078,7 @@ footer a {
 
     }
     .navSecond{
-        margin-left:10px;
+        margin-left:0px;
         gap: 0px;
     }
     #smallNav{
