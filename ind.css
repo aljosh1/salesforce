@@ -412,6 +412,13 @@ nav a{
     font-weight: bold;
     color: #032D60;
 }
+.stepp1Head{
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #032D60;
+}
 
 
 .step2Head{
@@ -1221,6 +1228,17 @@ footer a {
         margin-top: 150%;
         justify-items: center;        
     }
+    .stepp1Head{
+        width: 80%;
+        margin-left:  50px;
+        margin-right: 50px;
+        font-size: 42px;
+        margin-top: 10%;
+        justify-items: center;   
+        color: #032D60;     
+        font-weight: bold;
+    }
+
     .step1para{
         line-height: 25px;
         width: 90%;
@@ -1279,7 +1297,7 @@ footer a {
     border-color: #0176D3; background: #0176D3; border-radius: 5px; 
     margin-left: 40px;
     margin-right: 40px;
-    width: 75%; height: 50px; margin-top: 120px;
+    width: 75%; height: 50px; margin-top: 140px;
 }
 /* .displayB .displayA{
     display: block;
