@@ -1009,6 +1009,11 @@ footer a {
 
 
 @media (width<600px) {
+    /* body{
+        overflow-x: hidden;
+        margin:0px;
+        
+    } */
     .whole{
         margin: 0px;
         overflow-x: hidden;
