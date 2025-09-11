@@ -418,7 +418,7 @@ nav a{
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 600px;
+    margin-top: 60px;
     font-size: 35px;
     font-weight: bold;
     color: #032D60;
@@ -1068,7 +1068,7 @@ footer a {
         
     }
     .nav-container{
-        height: 0.9cm;
+        height: 0.5cm;
     }
     .try-for-free{
         position:fixed;
@@ -1092,17 +1092,20 @@ footer a {
         padding: 5px;
         margin-top: 70px;
         width: 100%;
-        gap: 100%;
+        gap: 10%;
         height: 100px;
         display: block;
-        text-align: left;
+        /* text-align: left; */
         text-wrap: wrap;
         row-gap: 1px;
         flex-wrap:wrap;
     }
     #SmallNav p{
         text-wrap: wrap;
-        font-size: 16px;
+        font-size: 10px;
+        width: 90%;
+        text-align: justify;
+        margin-left: 0px;
 
     }
     #smallNav a{
