@@ -1012,7 +1012,9 @@ footer a {
     /* body{
         overflow-x: hidden;
         margin:0px;
-        
+        padding:0px;
+        box-sizing: border-box;
+
     } */
     .whole{
         margin: 0px;
