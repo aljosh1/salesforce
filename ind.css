@@ -402,10 +402,19 @@ nav a{
 /* ------------------
     CONTAINER1 */
 
-.container1{
+.container1,
+.container11{
     margin-top: 60px;
 }
 .step1Head{
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #032D60;
+}
+.stepo1Head,
+.steep1Head{
     text-align: center;
     justify-content: center;
     font-size: 45px;
@@ -1238,6 +1247,15 @@ footer a {
         color: #032D60;     
         font-weight: bold;
     }
+    .stepo1Head,
+    .steep1Head{
+        width: 80%;
+        margin-left:  50px;
+        margin-right: 50px;
+        font-size: 42px;
+        margin-top: 0%;
+        justify-items: center;        
+    }
 
     .step1para{
         line-height: 25px;
@@ -1409,6 +1427,9 @@ footer a {
 .container1{
     margin-top: 100px;
     
+}
+.container11{
+    margin-top: 0px;
 }
 .step4Head{
         
