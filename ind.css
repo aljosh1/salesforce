@@ -1047,7 +1047,7 @@ footer a {
         flex-wrap: wrap;
     } */
     .try-for-free{
-        margin-left:200px;
+        margin-left:180px;
     }
     
     nav{
@@ -1065,7 +1065,7 @@ footer a {
     }
     .try-for-free{
         position:fixed;
-        width: 70px;
+        width: 80px;
         
         
     }
@@ -1073,7 +1073,7 @@ footer a {
         font-size: 10px;
         text-wrap: wrap;
         height: 90px;
-        width: 70%;
+        width: 60%;
         text-align: justify;
 
     }
