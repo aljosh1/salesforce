@@ -418,6 +418,7 @@ nav a{
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 600px;
     font-size: 35px;
     font-weight: bold;
     color: #032D60;
@@ -530,6 +531,28 @@ nav a{
     height: 100px;
 }
 
+
+.displayF {
+  display: none;
+  height: 100px;
+  width: 800px;
+}
+.displayG{
+    display: none;
+    width: 800px; 
+    height: 100px;
+}
+.displayH{
+    display: none;
+    width: 800px;
+    height: 100px;
+    z-index: 50;
+}
+.displayI{
+    display: none;
+    width: 800px;
+    height: 100px;
+}
 /* Show displayA when hovering over displayB */
 /* .displayB:hover  .displayA {
   display: block;
@@ -654,7 +677,7 @@ nav a{
     object-fit: cover;
 }
 
-.step2Head{
+.step8Head{
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -988,7 +1011,7 @@ footer a {
 @media (width<600px) {
     .menu{
         display: block;
-        margin-left: -32px;
+        margin-left: 2px;
     
     }
     .navFirst{
@@ -1020,7 +1043,7 @@ footer a {
         flex-wrap: wrap;
     } */
     .try-for-free{
-        margin-left:170px;
+        margin-left:200px;
     }
     
     nav{
@@ -1030,7 +1053,7 @@ footer a {
         height: 50px;
         overflow-y: hidden;
         z-index: 80;
-        width: 9rem;
+        width: 15rem;
         
     }
     .nav-container{
@@ -1046,7 +1069,7 @@ footer a {
 
     }
     .navSecond{
-        margin-left:-10px;
+        margin-left:10px;
         gap: 0px;
     }
     #smallNav{
@@ -1085,7 +1108,7 @@ footer a {
         background-position: center -10%;
         display: block;
         padding: 10px;
-        height: 2300px;
+        height: 230px;
         margin-left: -20px;
     }
         .span1{
@@ -1118,7 +1141,7 @@ footer a {
         /* margin-top: 200px; */
         /* margin-left:-157%; */
 
-        width:125%;
+        width:105%;
         height:200px;
         margin-top: 0%;
         border-top-left-radius: 20px; 
@@ -1129,8 +1152,8 @@ footer a {
     /* width: 600px; */
     /* padding: 20px; */
     /* position:static; */
-    margin-top: 500px;
-    margin-left: 5%;
+    margin-top: 600px;
+    margin-left: 6%;
     
     
 }
@@ -1238,15 +1261,20 @@ footer a {
     margin-right: 40px;
     width: 75%; height: 50px; margin-top: 120px;
 }
-.displayB .displayA{
+/* .displayB .displayA{
     display: block;
 
-}
-.displayB:hover .displayA{
+} */
+
+/* .displayJ .displayF{
+    display: block;
+
+} */
+/* .displayB:hover .displayA{
     display: block;
     color: red;
     background: purple;
-}
+} */
 
 
 /* GRID SECTION */
@@ -1442,6 +1470,9 @@ footer a {
 }
 .voiceBtn{
     background:white; position: absolute; margin-left: 25%; margin-top: 0%;  justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
+}
+.section4{
+    display: none;
 }
 
 
