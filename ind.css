@@ -2123,13 +2123,21 @@ footer a {
 /* .displayJ .displayF{
     display: block;
 
-} */
+} 
 /* .displayB:hover .displayA{
     display: block;
     color: red;
     background: purple;
 } */
-
+.displayF,
+.displayG,
+.displayH,
+.displayI {
+  display: none;
+  height: 100px;
+  margin-bottom: 40%;
+  width: 200px;
+}
 
 /* GRID SECTION */
     .container3Senior
