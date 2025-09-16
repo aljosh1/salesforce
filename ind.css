@@ -1280,6 +1280,474 @@ footer a {
     .user1{
         display: none;
     }
+
+    .menu{
+        display: block;
+        margin-left: 2px;
+    
+    }
+    .navFirst{
+        display: none;
+    }
+    .search-design{
+        display: none;
+       
+    }
+    .searchi-design{
+        display: block;
+        margin-top: -55px;
+        margin-left: 20px;
+        z-index: 2;
+        width: 95%;
+        position: absolute;
+    }
+    .searchi-design p{
+    color:#002775;
+    text-align: left;
+    justify-self: left;
+    margin-left:10px ;
+    margin-top: 8px;
+}
+    .serc{
+        display: none;
+    }
+    
+    .contact_break{
+        display: none;
+    }
+    .more{
+        display: none;
+    }
+    .net{
+        display: none;
+    }
+    .user1{
+        display: block;
+        margin-left: 470%;
+
+    }
+    .user{
+        display: none;
+    }
+    .logo1{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        
+    }
+    /* .nav-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    } */
+    .try-for-free{
+        margin-left:220px;
+    }
+    
+    nav{
+        position:fixed;
+        
+        top: 1px;
+        height: 70px;
+        overflow-y: hidden;
+        z-index: 80;
+        width: 15rem;
+        
+    }
+    .nav-container{
+        height: 0.4cm;
+    }
+    .try-for-free{
+        position:fixed;
+        width: 160px;
+        margin-left: 80%;
+    }
+    .try-for-free a{
+        font-size: 10px;
+        text-wrap: wrap;
+        height: 90px;
+        width: 60%;
+        text-align: justify;
+
+    }
+    .navSecond{
+        margin-top: 20px;
+        margin-left:22%;
+        gap: 15px;
+    }
+    #smallNav{
+        padding: 5px;
+        margin-top: 120px;
+        width: 100%;
+        gap: 10%;
+        height: 80px;
+        display: block;
+        /* text-align: left; */
+        text-wrap: wrap;
+        row-gap: 1px;
+        flex-wrap:wrap;
+    }
+    #SmallNav p{
+        text-wrap: wrap;
+        font-size: 10px;
+        width: 90%;
+        text-align: justify;
+        margin-left: 0px;
+
+    }
+    #smallNav a{
+        text-align: left;
+        padding-left: 0;
+    }
+    .span1{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .button{
+        display: block;
+        justify-items: center;
+        /* background-image: url(iframbackground.webp); */
+    }
+    .main-container{
+        background-image: url(php-marquee-hp-agentforce-sm-bg.jpg.webp);
+        background-repeat: no-repeat;
+        background-position: center -10%;
+        display: block;
+        padding: 10px;
+        height: 230px;
+        margin-left: -15px;
+        text-wrap: wrap;
+    }
+        .span1{
+        font-size: 15px;
+    }
+    .span2{
+        font-size: 55px;
+    }
+    .span3{
+        font-size: 50px;
+    }
+    
+    .main-container p{
+        font-size: 22px;
+    }
+    .main-section{
+        margin: 60px;
+    }
+    .image_under_video1{
+        display: none;
+        width: 690px;
+        height: 400px;
+        margin-left: 1px;
+    }
+
+    .main-container p{
+        flex-wrap: wrap;
+        display:flex;
+        gap: 30px;
+        width: 70%;
+    }
+
+    .vid_one{
+        /* margin-top: 200px; */
+        /* margin-left:-157%; */
+
+        width:600px;
+        height:300px;
+        margin-top: 0%;
+        border-top-left-radius: 20px; 
+        border-top-right-radius: 20px;
+
+    }
+    .iframe-section{
+    /* width: 600px; */
+    /* padding: 20px; */
+    /* position:static; */
+    margin-top: 550px;
+    margin-left: 8%;
+    
+    
+}
+    .image_under_video1{
+        /* margin-left:-10%; */
+        z-index: -1;
+        /* width:1200px; */
+        height:auto;
+        rotate: 270deg;
+        position: absolute;
+    }
+    
+
+    .container1{
+        margin-top: 90%;
+    }
+    .step1Head{
+        width: 70%;
+        margin-left:  120px;
+        margin-right: 60px;
+        font-size: 42px;
+        margin-top: 100%;
+        text-wrap: wrap;
+        text-align: center;
+        justify-items: center;        
+    }
+    .step1para{
+        width: 70%;
+        margin-left:  120px;
+        line-height: 20px;
+
+    }
+    
+    .container11{
+    margin-top: 60px;
+    }
+
+    .step1but{
+    display: block;
+    margin-left: 25%;
+    justify-items: center;
+    /* margin-left: 100px; */
+    margin-right: 0px;
+    }
+    .try-try2{
+    background:white;
+    margin-top: 32px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: center; 
+    border-radius: 3px;
+    font-size: 18px;
+    border:  2px solid #0176D3; 
+    width: 30%; height: 50px;
+    }
+    .try-try1{
+    border-color: #0176D3;
+    justify-items: center; 
+    border-radius: 5px; 
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-items: center;
+    width: 30%; 
+    height: 50px;
+    }
+    .container2{
+    display: block;
+    width: 90%;
+    line-height: 20px;
+    margin-left: 30%;   
+    }
+    .vid_two{
+        display: none;
+    }
+    .container2{
+    display: block;
+    column-gap:0px;
+    line-height: 29px;
+    margin-left: 10px;   
+}
+.container2-section{
+    float: none;
+     margin-left: 15%;
+     margin-top: 4px; height: 250px; width: 100%;
+}
+#container2-btn{
+    border-color: #0176D3; background: #0176D3; border-radius: 5px; 
+    margin-left: 15%;
+    margin-right: 40px;
+    width: 75%; height: 50px; margin-top: 17px;
+}
+
+    .main-container2{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 2px;
+    gap: 10px;
+    display:block; 
+    /* background-image: url(iframbackground.webp); */
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 100px;
+    
+}
+    .grapbtn{
+    background:white; position: relative; margin-left: 25%; margin-top: 40px; justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
+}
+
+.main-section2{
+    width: fit-content;
+    height: 200px;
+    text-align: center;
+}
+    .main-container2Vid{
+    border-radius: 20px; width:600px; height: 400px; margin-top:10px;  position: relative;
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px;  */
+    margin-left: 10%;
+} 
+.main-container2P{
+    font-size: 14px;
+    text-wrap: wrap;
+    padding: 1px;
+    width: 100%;
+    height: 200px;
+    margin-left:10%;
+    text-align: left;
+}
+.easy{
+    text-align: justify;
+    margin-left:10%;
+}
+.easySenior{
+    margin-top: 0%;
+}
+.main-container2Img{
+    margin-top: 550px; width: 100%;
+}
+.easySeniorSection{
+    margin-top: 10px; margin-left: 50px; margin-right: 50px; margin-bottom: 10px;
+}
+.easySenior{
+     margin-top: 70px;         
+     display: block;
+}
+.easyVid{
+    border-radius: 25px; width:300px; height: 160px; border: none; display: none;
+}
+.easy-less{
+    margin-left: 0px;
+    margin-top: 4px;
+    display: block; 
+}
+.easy-lessP2{
+    font-size: 20px; margin-top: 10px; margin-left: -10%;
+    text-wrap: wrap;width: 90%;
+}
+.hover{
+    margin-left: 50px; margin-top: 9rem;
+}
+.easy2{
+    margin-left: 50px; margin-top: 9rem;
+}
+.EasyButtonn {
+    margin-top: 1rem;color:rgb(255, 255, 255); border-radius: 3px; font-size: 14px; border:  4px solid #ffffff; width: 200px; height: 60px; margin-left:-20%;
+}
+.easyButton2{
+    position: relative; margin-top: 60px; background:white; margin-left: 20%; justify-content: center; border-radius: 5px; font-size: 16px; border:  2px solid #0176D3; width: 250px; height: 50px;
+}
+.container1{
+    margin-top: 100px;
+    
+}
+.container11{
+    margin-top: 0px;
+}
+.step4Head{
+        
+    justify-content: center;
+    font-size: 24px;
+    margin-left: -50px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #032D60;
+
+}
+.secondBackground{
+    width:100%;
+}
+.container1 h2{
+    text-align: center;
+}
+.thirdGrid{
+    display: flex;
+}
+.thirdGrid img{
+    width: 215px;
+    height: 150px;
+    margin-left: 30px;
+}
+.babyImage2{
+    width: 100%;
+}
+.four-grid{
+    display: flex;
+}
+.fastGrid{
+    width: 40%;
+    border-radius: 20px;
+    z-index: 8;
+    /* margin-left: 0px; */
+    
+    
+    margin: 30px;
+    box-shadow: 10px 4px 15px rgba(77, 75, 75, 0.26);
+    /* box-shadow: 10px 4px  5px rgba(0, 0, 0, 0.2); */
+}
+.Birdackground{
+    width: 100%;
+}
+.seeHow{
+    width: 200px;
+    height:150px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.seeHow-cap{
+    display: flex;
+    margin: 40px;
+}
+.takeWord h2{
+    width: 90%;
+    text-align: center;
+    font-size: 52px;
+    color:#032D60;
+    margin-top: 0%;
+    justify-items: center; 
+    justify-self: center;        
+}
+
+.takeWord h3{
+    width: 90%;
+    text-align: center;
+    justify-self: center;
+    font-size: 32px;
+    color:#032D60;
+    margin-top: 0%;
+    justify-items: center;         
+}
+.takeWord p{
+    font-size: 22px;
+    justify-self: center;
+}
+.takeWord{
+    margin: 20px;
+}
+.lookHow-cap{
+    margin-top: 9rem;
+    margin: 100px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.lookHow {
+    width: 200px;
+    height:180px;
+    border-radius: 12px;
+    margin-left: 0px;
+}
+.lookHow2 p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;
+}
+.voiceBtn{
+    background:white; position: absolute; margin-left: 35%; margin-top: 0%;  justify-content: center; border-radius: 3px; font-size: 18px; border:  2px solid #0176D3; width: 200px; height: 50px;
+}
+.section4{
+    display: none;
+}
+
+    
+
     .container3Senior {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
