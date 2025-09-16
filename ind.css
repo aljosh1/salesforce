@@ -1819,15 +1819,16 @@ footer a {
 }
 
 @media (width<600px) {
-    /* body{
+    body{
         overflow-x: hidden;
         margin:0px;
         padding:0px;
         box-sizing: border-box;
 
-    } */
+    } 
     .whole{
         margin: 0px;
+        padding: 0px;
         overflow-x: hidden;
     }
     .menu{
@@ -2132,11 +2133,15 @@ footer a {
 .displayF,
 .displayG,
 .displayH,
-.displayI {
+.displayI,
+.displayA,
+.displayc,
+.displayD,
+.displayE {
   display: none;
   height: 100px;
   margin-bottom: 40%;
-  width: 200px;
+  width:80%;
 }
 
 /* GRID SECTION */
