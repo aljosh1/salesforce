@@ -1,0 +1,32 @@
+.menu-bar p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #032D60;
+    text-decoration: none;
+
+}
+.menu-bar, 
+.menu-bara{
+    margin-bottom: 10px;
+}
+.menu-bara a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #032D60;
+    text-decoration: none;
+}
+
+
+
+.Product,
+.Industries,
+.Customer,
+.Event, 
+.Learning,
+.Support,
+.Company{
+    display: none;
+    padding: 50px;
+    text-align: center;
+    font-size: 16px
+}

@@ -64,6 +64,77 @@ function hover8(){
 }
 
 
+function hoverMM(){
+    let text = document.getElementsByClassName("generalMenu")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+    `.Industries{
+        display:none
+    }`
+}
+
+function hoverM1(){
+    let text = document.getElementsByClassName("Product")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+    `.Industries{
+        display:none
+    }`
+}
+
+function hoverM2(){
+    let text = document.getElementsByClassName("Industries")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+}
+
+function hoverM3(){
+    let text = document.getElementsByClassName("Customer")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+}
+
+function hoverM4(){
+    let text = document.getElementsByClassName("Event")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+}
+
+function hoverM5(){
+    let text = document.getElementsByClassName("Learning")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+}
+
+function hoverM6(){
+    let text = document.getElementsByClassName("Support")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+}
+
+function hoverM7(){
+    let text = document.getElementsByClassName("Company")[0]
+    if (text.style.display ==="none"){
+        text.style.display = "block"
+    }
+    else {text.style.display = "none"}
+}
+
+
 
 
 
