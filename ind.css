@@ -5,7 +5,7 @@
     /* transition:ease-in; */
     background: white;
     width: 700px;
-    height: 500px;
+    height: 900px;
     border-radius: 20px;
     z-index: 400;
     position: fixed;
@@ -17,17 +17,28 @@
     font-weight: bold;
     color: #032D60;
     text-decoration: none;
+    margin-left: 50px;
 
+}
+.Product{
+    margin-left: 80px;
 }
 .menu-bar, 
 .menu-bara{
     margin-bottom: 10px;
+}
+.menu-bara{
+    margin-left: 40px;
 }
 .menu-bara a{
     font-size: 16px;
     font-weight: bold;
     color: #032D60;
     text-decoration: none;
+}
+.menu-bar :nth-child(1),
+.menu-bara{
+    text-align: left;
 }
 
 
@@ -42,7 +53,8 @@
     display: none;
     /* padding: 50px; */
     text-align: left;
-    font-size: 16px
+    font-size: 16px;
+    margin-left: 80px;
 }
 
 
@@ -1841,8 +1853,7 @@ footer a {
     .user{
         display: none;
     }
-    .user1 img{
-    }
+    
     .logo1{
         width: 40px;
         height: 40px;
@@ -1965,7 +1976,7 @@ footer a {
 
         width:110%;
         height:200px;
-        margin-top: 0%;
+        margin-top: 10%;
         border-top-left-radius: 20px; 
         border-top-right-radius: 20px;
 
@@ -2102,7 +2113,7 @@ footer a {
     border-color: #0176D3; background: #0176D3; border-radius: 5px; 
     margin-left: 40px;
     margin-right: 40px;
-    width: 75%; height: 50px; margin-top: 17ta0px;
+    width: 75%; height: 50px; margin-top: 30%;
 }
 /* .displayB .displayA{
     display: block;
@@ -2168,7 +2179,7 @@ footer a {
 }
     .main-container2Vid{
      border: none; border-radius: 20px; width:370px; height: 200px; margin-top:230px; border-top-left-radius: 12px;
-            border-top-right-radius: 12px;  border-radius: 12px; position: relative;
+            border-top-right-radius: 12px;  border-radius: 12px; position: relative; margin-left: -5px;
 } 
 .main-container2P{
     font-size: 14px;
@@ -2245,6 +2256,7 @@ footer a {
 }
 .thirdGrid{
     display: block;
+    margin-left: 30px;
 }
 .thirdGrid img{
     width: 280px;
@@ -2261,7 +2273,7 @@ footer a {
     width: 90%;
     border-radius: 20px;
     z-index: 8;
-    margin-left: 20px;
+    margin-left: 0px;
     
     
     margin: 20px;
