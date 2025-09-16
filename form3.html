@@ -12,10 +12,9 @@
             background-color: #EAF5FE;
         }
         .form-container {
-            width: 500px;
+            width: 450px;
             height: max-content; ;
-            margin-left: 35%;
-            margin-right: 30%;
+            margin: 50px 430px;
             padding: 20px;
             background-color: white;
             border-radius: 10px;
@@ -119,17 +118,34 @@
             margin-left: 20px;
             margin-top: 1px ;
         }
-        #agree{
-            margin-left: 30%;
+        #agree1{
+            margin-left: -30%;
         }
         #agree2{
-            margin-right: 70%;
+            margin-left: -9%;
         }
+        .label1{
+            margin-left: -190px;
+        }
+        .label2{
+            margin-left: -90px;
+        }
+        #hum {
+            margin-left: 1px;
         
+            
+        }
+        #jum{
+            text-align: right;
+        }
+        #hum1{
+            margin-top: -40px;
+        }
     </style>
 </head>
 <body>
-    <div class="form-container">
+    <div class="loginForm">
+       <div class="form-container">
         <div id="frontier">
             <img src="logo.svg" alt="logo", width="60px" height="60px" >
         <p id="just" ><h2>Just one more thing</h2>  
@@ -142,19 +158,19 @@
             <input type="text" id="first-name" name="Phone Number" placeholder="Phone Number" required><br>
             <input type="text" id="first-name" name="Email" placeholder="Email" required><br>
             <figcaption style="font-size: 13px; margin-left: 20px;">Your free trial may be provisioned on or migrated to Hyperforce, Salesforce's public cloud infrastructure.</figcaption>
-             <div style="display: flex; align-items: center; margin-bottom: 8px;">
-  <input type="checkbox" id="agree1" name="agree" value="agree" required>
-  <label for="agree1" style="margin-left: 6px;">
-    I agree to the <a href="">Main Services Agreement.</a>
-  </label>
-</div>
+            <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                <input type="checkbox" id="agree1" name="agree" value="agree" required>
+                <label for="agree1" class="label1" style="font-size: 13px; ">
+                    I agree to the <a href="">Main Services Agreement.</a>
+                </label>
+            </div>
 
-<div style="display: flex; align-items: center;">
-  <input type="checkbox" id="agree2" name="agree2" value="agree2" required>
-  <label for="agree2" style="font-size: 13px; margin-left: 6px;">
-    Yes, I would like to receive marketing communications regarding Salesforce products, services, and events. I can unsubscribe at any time.
-  </label>
-</div>
+            <div style="display: flex; align-items: center;">
+                <input type="checkbox" id="agree2" name="agree2" value="agree2" required>
+                <label for="agree2" class="label2" style="font-size: 13px; ">
+                    Yes, I would like to receive marketing communications regarding Salesforce products, services, and events. I can unsubscribe at any time.
+                </label>
+            </div>
 
 <p id="hum">We value your privacy. To learn more, visit our <a href="">Privacy Statement</a></p>
 
@@ -162,6 +178,8 @@
             <p></p>
             
             <p id="jum" style="color: #aaa;"> 3 of 3</p>
+            <p id="hum1" style="color: #aaa;"><a href="form2.html">back</a></p>
+            
         </form>
     </div>
         <section id="down">
@@ -171,6 +189,8 @@
             which<br> is limited to 2,000 leads and/or contacts and 10 emails per day for the Salesforce Starter Trial Edition.<br>
             </p><p>*USD/user/month (billed monthly or annually).</p>
         </section>
+        
+        </form>
         <footer>
             <select name="worldwide" id="worldwide" placeholder="Worldwide">
                 <option value="worldwide">Worldwide</option>
@@ -188,8 +208,9 @@
             <p>
                 © Copyright 2025 Salesforce, Inc. <a href="">All rights reserved.</a> Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States
             </p>
-        </footer>
+        </footer> 
+    </div>
 
-    
+    <script src="tryAndError.js"></script>
 </body>
 </html>
