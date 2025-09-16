@@ -1896,7 +1896,7 @@ footer a {
 
     }
     .navSecond{
-        margin-left:-30px;
+        margin-left:-10px;
         gap: 0px;
     }
     #smallNav{
@@ -2132,8 +2132,8 @@ footer a {
 
 
 /* GRID SECTION */
-    .container3Senior,
-    #container3Senior{
+    .container3Senior
+    {
         display: block;
         justify-content: center;
         align-items: center;
@@ -2150,7 +2150,7 @@ footer a {
         justify-content: center;
         align-items: center;
         justify-items: center;
-        margin-left: 20px;
+        margin-left: 15px;
         margin-right: 20px;
 
     }
