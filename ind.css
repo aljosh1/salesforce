@@ -1824,7 +1824,8 @@ footer a {
         margin:0px;
         padding:0px;
         box-sizing: border-box;
-
+        scrollbar-width:none;
+        align-items: center;
     } 
     .whole{
         margin: 0px;
@@ -2191,7 +2192,7 @@ footer a {
     height: 200px;
 }
     .main-container2Vid{
-     border: none; border-radius: 20px; width:370px; height: 200px; margin-top:230px; border-top-left-radius: 12px;
+     border: none; border-radius: 20px; width:330px; height: 200px; margin-top:230px; border-top-left-radius: 12px;
             border-top-right-radius: 12px;  border-radius: 12px; position: relative; margin-left: -5px;
 } 
 .main-container2P{
