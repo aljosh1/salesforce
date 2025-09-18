@@ -136,6 +136,40 @@ function hoverM7(){
 
 
 
+// // JavaScript to handle hover effect
+//   const image = document.getElementsByClassName('net');
+//   const countriesNone = document.getElementsByClassName('countriesNone')[0];
+
+//   image.addEventListener('mouseenter', () => {
+//     countriesNone.style.display = 'block';
+//   });
+
+//   image.addEventListener('mouseleave', () => {
+//     countriesNone.style.display = 'none';
+//   });
+
+// JavaScript to handle hover effect
+  const countriesNone = document.getElementsByClassName('countriesNone')[0];
+  const image = document.getElementsByClassName('parent');
+//   const dropdown = document.getElementsByClassName('countriesNone')[0];
+
+  // Show dropdown on image hover
+  image.addEventListener('mouseenter', () => {
+    countriesNone.style.display = 'block';
+  });
+
+  // Hide dropdown when mouse leaves both image and dropdown
+  image.addEventListener('mouseleave', () => {
+    setTimeout(() => {
+      if (!countriesNone.matches(':hover')) {
+        countriesNone.style.display = 'none';
+      }
+    }, 200); // slight delay to allow pointer to move into dropdown
+  });
+
+  countriesNone.addEventListener('mouseleave', () => {
+    countriesNone.style.display = 'none';
+  });
 
 
 
